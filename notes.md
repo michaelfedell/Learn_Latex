@@ -17,3 +17,19 @@ Can also pull from a large number of available templates
 2. Begin
     Start of document marked by the `\begin{document}` clause
 3. Body
+
+## Preamble
+
+\documentclass[settings]{class} allows the user to specify `settings` like fontsize, papersize, etc whereas `class` defines the type of document to be created
+
+[more options for page size and margins](https://www.overleaf.com/learn/Page_size_and_margins)
+
+`\usepackage[utf8]{inputenc}` specifies the encoding type to use - this line should always be added unless you specifically need another
+
+`\title{title}` can be used to add a title
+`\author{author \thanks{ack}}` adds an author and acknowledgement
+`\date{Month 2019}` adds a date to the paper
+
+`\maketitle` can be added to the _body_ to insert the title
+
+
