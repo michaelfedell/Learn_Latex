@@ -77,3 +77,11 @@ is the same example
 ```
 
 For the most part, images should always be placed in a `figure` environment so that latex knows how to position, style, and reference the image
+
+### Creating lists in latex
+
+Lists are creating using an _environment_ (surrounded wiht `\begin` and `\end` tags)
+
+List items are always prefaced with the `\item` tag (like `<li>` in html)
+
+Unordered lists are begun with `\begin{itemize}` whereas ordered lists are begun with `\begin{enumerate}`
