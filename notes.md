@@ -38,4 +38,11 @@ Can also pull from a large number of available templates
 
 Comments are prefaced with `%` and not printed in the document output
 
+### Formatting
 
+To format a block of text, you lead with a `\text` tag and then place the block of text in `{}`s.
+
+- **Bold**: `\textbf{}`
+- _Italic_: `\textit{}`
+- __Underline__: `underline{}`
+- `\emph{}` will emphasize some piece of text depending on the context
