@@ -46,3 +46,16 @@ To format a block of text, you lead with a `\text` tag and then place the block 
 - _Italic_: `\textit{}`
 - __Underline__: `underline{}`
 - `\emph{}` will emphasize some piece of text depending on the context
+
+### Images
+
+Images are not supported by base LaTeX but can be easily included by using the `graphicx` package.
+
+This is done by inlcluding `\usepackage{graphicx}` in the **preamble**
+
+Images can be included in the document by then using `\includegraphics{...}`
+
+Images will be searched for in the directory set by `\graphicspath{...}`
+
+It is best to leave out the image extension and let LaTeX find it on its own.
+
