@@ -59,3 +59,21 @@ Images will be searched for in the directory set by `\graphicspath{...}`
 
 It is best to leave out the image extension and let LaTeX find it on its own.
 
+### Captions, Labels, and References
+
+Images can be given captions, labels, and references by means of the `figure` environment.
+
+```latex
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.25\textwdith]{mesh}
+    \caption{a nice plot}
+    \label{fig:mesh}
+\end{figure}
+
+As you can see in the figure \ref{fig:mesh},
+the function grows near 0, Also, in the page \pageref{fig:mesh}
+is the same example
+```
+
+For the most part, images should always be placed in a `figure` environment so that latex knows how to position, style, and reference the image

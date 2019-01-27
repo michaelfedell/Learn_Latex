@@ -12,6 +12,8 @@
 We now have a title prepared with author and date.
 This \LaTeX{} document is starting to look great!
 
+\newpage
+
 Some of the \textbf{greatest}
 discoveries in \underline{science}
 were made by \textbf{\textit{accident}}.
@@ -31,10 +33,24 @@ were made by accident.}
 in science
 were made by accident.}
 
+\newpage
 
 The universe is immeense and it seems to be homogeneous, in a large scale, everywhere we look.
 
 \includegraphics{moon}
 
 There's a picture of the moon above
+
+\newpage
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.25\textwidth]{mesh}
+    \caption{a nice plot}
+    \label{fig:mesh1}
+\end{figure}
+
+As you can see in the figure~\ref{fig:mesh1}, the
+function grows near 0. Also, in the page~\pageref{fig:mesh1}
+is the same example.
 \end{document}
