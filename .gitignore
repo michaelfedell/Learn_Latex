@@ -1,3 +1,5 @@
 *.aux
 *.log
+*.fls
+*.fdb*
 .DS_Store

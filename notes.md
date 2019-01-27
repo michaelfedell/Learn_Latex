@@ -38,7 +38,7 @@ Can also pull from a large number of available templates
 
 Comments are prefaced with `%` and not printed in the document output
 
-### Formatting
+### Style
 
 To format a block of text, you lead with a `\text` tag and then place the block of text in `{}`s.
 
@@ -85,3 +85,35 @@ Lists are creating using an _environment_ (surrounded wiht `\begin` and `\end` t
 List items are always prefaced with the `\item` tag (like `<li>` in html)
 
 Unordered lists are begun with `\begin{itemize}` whereas ordered lists are begun with `\begin{enumerate}`
+
+## Adding math to LaTeX
+
+Inline expressions are surrounded by `$` tags  
+alternatively, `\( ... \)` or `\begin{math} ... \end{math}` can be used
+
+_Displayed_ mode has two versions, numbered and unnumbered
+
+_Unnumbered_ equations are placed on their own line surrounded by `\[ ... \]`
+
+_Numbered_ equations are wrapped in an _equation environment_
+e.g.
+
+```latex
+\begin{equation}
+...
+\end{equation}
+```
+
+Many more math commands are available with the inclusion of the **amsmath** package
+
+- [Mathematical expressions](https://www.overleaf.com/learn/Mathematical_expressions)
+- [Subscripts and superscripts](https://www.overleaf.com/learn/Subscripts_and_superscripts)
+- [Brackets and Parentheses](https://www.overleaf.com/learn/Brackets_and_Parentheses)
+- [Fractions and Binomials](https://www.overleaf.com/learn/Fractions_and_Binomials)
+- [Aligning Equations](https://www.overleaf.com/learn/Aligning_equations_with_amsmath)
+- [Operators](https://www.overleaf.com/learn/Operators)
+- [Spacing in math mode](https://www.overleaf.com/learn/Spacing_in_math_mode)
+- [Integrals, sums and limits](https://www.overleaf.com/learn/Integrals,_sums_and_limits)
+- [Display style in math mode](https://www.overleaf.com/learn/Display_style_in_math_mode)
+- [List of Greek letters and math symbols](https://www.overleaf.com/learn/List_of_Greek_letters_and_math_symbols)
+- [Mathematical fonts](https://www.overleaf.com/learn/Mathematical_fonts)
