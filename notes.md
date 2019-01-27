@@ -10,7 +10,9 @@ Highly extensible through libraries and packages
 
 Can also pull from a large number of available templates
 
-## Common elements
+## Essentials
+
+### Common elements
 
 1. Class
     The first clause is typically the `\documentclass{article}`. `article` is the most common/basic type of document class, but many others are available for resumes, scientific papers, etc
@@ -18,7 +20,7 @@ Can also pull from a large number of available templates
     Start of document marked by the `\begin{document}` clause
 3. Body
 
-## Preamble
+### Preamble
 
 \documentclass[settings]{class} allows the user to specify `settings` like fontsize, papersize, etc whereas `class` defines the type of document to be created
 
@@ -31,5 +33,9 @@ Can also pull from a large number of available templates
 `\date{Month 2019}` adds a date to the paper
 
 `\maketitle` can be added to the _body_ to insert the title
+
+### Comments
+
+Comments are prefaced with `%` and not printed in the document output
 
 
